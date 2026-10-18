@@ -1,0 +1,44 @@
+{
+  "name": "rewind",
+  "version": "1.0.0",
+  "description": "Rewind - replay agent runs, mutate one variable, see what would have happened. Replay + mutate + diff for agent traces.",
+  "license": "MIT",
+  "bin": {
+    "rewind": "bin/rewind.js"
+  },
+  "files": [
+    "bin/",
+    "agents/rewind/",
+    "kit/acp_kit/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "acp",
+    "agent",
+    "ai-agents",
+    "replay",
+    "mutation",
+    "diff",
+    "debugging",
+    "ascii-art",
+    "meme",
+    "discord",
+    "zed",
+    "gemini-cli"
+  ],
+  "author": {
+    "name": "mrfentmen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrfentmen/rewind.git"
+  },
+  "homepage": "https://github.com/mrfentmen/rewind",
+  "bugs": {
+    "url": "https://github.com/mrfentmen/rewind/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "siblings": [
+    {"name": "air", "dir": "air", "ask": "how is the air quality in {place} right now?",
+     "topics": ["air", "aqi", "smog", "pm25", "pm2.5", "pollution", "ozone", "wildfire smoke"]},
+    {"name": "hazards", "dir": "hazards", "ask": "what alerts or earthquakes affect {place} right now?",
+     "topics": ["alert", "warning", "earthquake", "quake", "magnitude", "shaking", "watches"]},
+    {"name": "wildfire", "dir": "wildfire", "ask": "are any wildfire incidents burning near {place}?",
+     "topics": ["fire", "burn", "perimeter", "smoke", "wildfire"]},
+    {"name": "tides", "dir": "tides", "ask": "what are the tides at {place} for the next day?",
+     "topics": ["tide", "tides", "high tide", "low tide", "coast", "beach", "harbor"]},
+    {"name": "moon", "dir": "moon", "ask": "when does it get dark in {place} tonight?",
+     "topics": ["moon", "sunset", "sunrise", "dusk", "dawn", "dark", "daylight", "twilight"]}
+  ],
+  "watch_handler": "sentry",
+  "watch_words": ["watch", "alert me", "monitor", "notify me", "tell me when"]
+}
