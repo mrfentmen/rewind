@@ -1,10 +1,10 @@
 {
-  "name": "rewind",
+  "name": "rewind-agent",
   "version": "1.0.0",
   "description": "Rewind - replay agent runs, mutate one variable, see what would have happened. Replay + mutate + diff for agent traces.",
   "license": "MIT",
   "bin": {
-    "rewind": "bin/rewind.js"
+    "rewind-agent": "bin/rewind.js"
   },
   "files": [
     "bin/",

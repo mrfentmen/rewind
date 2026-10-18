@@ -34,8 +34,8 @@ write it. A mutation that cannot be applied honestly is refused, not faked.
 ## Run it
 
 ```bash
-npm i -g rewind     # or: npx rewind  (packaged agent; needs python3)
-rewind              # launches agents/rewind/agent.py
+npm i -g rewind-agent     # or: npx rewind-agent  (packaged agent; needs python3)
+rewind-agent              # launches agents/rewind/agent.py
 ```
 
 Or from source:
